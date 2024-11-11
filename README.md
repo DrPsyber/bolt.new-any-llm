@@ -221,8 +221,17 @@ When you add a new model to the MODEL_LIST array, it will immediately be availab
 
 This fork adds default model `qwen2.5-coder-7b-instruct` running from **LM Studio** on your local machine.
 
-> **Note:** Be sure to increase **Context Length** to `32768` (max value) in LM Studio. If this is not done you will get pauses in Bolt as interface will be expecting a longer response than is given.  
+### Notes: 
 
+Be sure to increase **Context Length** to `32768` (max value). If this is not done you will get pauses in Bolt as interface will be expecting a longer response than is given:
+1. Open **LM Studio**
+2. Select **Developer** in navigation bar (<img src="https://github.com/user-attachments/assets/55872c70-b0dc-4f74-b904-4bdd583fdbff" width="16" height="16" /> icon)
+3. Select **Local Server** tab
+4. Select `qwen2.5-coder-7b-instruct` from model list
+5. Select **Load** tab from detail pane
+6. Drag **Context Length** slider all the way to the right or enter `32768` in text field
+     
+Toggle **Serve on Local Network** on if getting `CONNECTIION REFUSED` error.
 
 ## Available Scripts
 

@@ -217,7 +217,7 @@ By default, Anthropic, OpenAI, Groq, and Ollama are implemented as providers, bu
 
 When you add a new model to the MODEL_LIST array, it will immediately be available to use when you run the app locally or reload it. For Ollama models, make sure you have the model installed already before trying to use it here!
 
-## Qwen 2.5 Coder:
+## LM Studio and Qwen 2.5 Coder:
 
 This fork adds default model `qwen2.5-coder-7b-instruct` running from **LM Studio** on your local machine.
 

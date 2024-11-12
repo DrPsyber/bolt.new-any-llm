@@ -6,7 +6,7 @@ export const MODIFICATIONS_TAG_NAME = 'bolt_file_modifications';
 export const MODEL_REGEX = /^\[Model: (.*?)\]\n\n/;
 export const PROVIDER_REGEX = /\[Provider: (.*?)\]\n\n/;
 export const DEFAULT_MODEL = 'qwen2.5-coder-7b-instruct';
-export const DEFAULT_PROVIDER = 'OpenAILike';
+export const DEFAULT_PROVIDER = 'LMStudio';
 
 const staticModels: ModelInfo[] = [
   { name: 'gpt-4o', label: 'GPT-4o', provider: 'OpenAI' },
